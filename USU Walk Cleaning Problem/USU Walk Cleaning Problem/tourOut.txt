@@ -1,0 +1,40 @@
+Cycles for the graph of file prog7A.txt
+Cycle 0: D A B E C D
+Cycle 1: G B F C G
+
+The edge matrix for prog7A.txt
+Edge:    0  1  2  3  4  5  6  7  8
+Cycle:   0  1  1  0  0  0  0  1  1
+
+The edge matrix for prog7A.txt
+     A  B  C  D  E  F  G
+  A  -  3  -  0  -  -  -
+  B  3  -  -  -  4  8  7
+  C  -  -  -  6  5  1  2
+  D  0  -  6  -  -  -  -
+  E  -  4  5  -  -  -  -
+  F  -  8  1  -  -  -  -
+  G  -  7  2  -  -  -  -
+
+Euler Tour for prog7A.txt 
+D A B F C G B E C D
+
+Cycles for the graph of file prog7B.txt
+Cycle 0: A B C A
+Cycle 1: A E D A
+
+The edge matrix for prog7B.txt
+Edge:    0  1  2  3  4  5
+Cycle:   0  0  0  1  1  1
+
+The edge matrix for prog7B.txt
+     A  B  C  D  E
+  A  -  0  2  5  3
+  B  0  -  1  -  -
+  C  2  1  -  -  -
+  D  5  -  -  -  4
+  E  3  -  -  4  -
+
+Euler Tour for prog7B.txt 
+A B C A D E A
+
